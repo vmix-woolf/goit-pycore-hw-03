@@ -18,7 +18,7 @@ def get_days_from_today(date: str) -> int:
     
 get_days_from_today("2024-11-05")  # voting in the USA
 get_days_from_today("2026-08-26")  # graduation from Neoversity
-get_days_from_today("2023-12-31")  # New Year's Eve
+get_days_from_today("2024-12-31")  # New Year's Eve
 get_days_from_today("2023-12-25")  # last Christmas
 get_days_from_today("2023-13-25")  # exception
 get_days_from_today("2025-04-32")  # exception
