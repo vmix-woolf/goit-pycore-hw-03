@@ -1,6 +1,6 @@
 from datetime import datetime as dt, timedelta
 
-def get_upcoming_birthdays(users: list[dict[str: str]]) -> list:
+def get_upcoming_birthdays(users: list[dict[str, str]]) -> list:
     upcoming_birthdays = []
     today = dt.today().date()
     
